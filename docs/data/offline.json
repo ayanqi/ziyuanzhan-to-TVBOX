@@ -1,37 +1,11 @@
 {
-  "timestamp": "2026-11-01 05:46:02",
-  "total": 12,
+  "timestamp": "2026-11-01 12:27:35",
+  "total": 11,
   "data": [
-    {
-      "name": "大地资源站",
-      "link": "https://dadiapi.com",
-      "source_url": "https://www.ziyuanzu.com/source/dadiziyuanzhan",
-      "api": "https://dadiapi.com/api.php",
-      "description": "大地资源采集站，提供影视资源API接口",
-      "status": "down",
-      "uptime": "-",
-      "resource_count": 50000,
-      "rating": 4.1,
-      "tags": [
-        "极速",
-        "热门",
-        "影视资源"
-      ],
-      "speed": "medium",
-      "responseTime": 652,
-      "todayUpdates": 0,
-      "health": {
-        "url": "https://dadiapi.com",
-        "status_code": null,
-        "response_time_ms": null,
-        "is_alive": false,
-        "error": "Timeout"
-      }
-    },
     {
       "name": "ok资源站",
       "link": "https://api.okzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/okziyuanzhan",
+      "source_url": "https://api.okzy.com",
       "api": "https://api.okzy.com/api.php/provide/vod",
       "description": "ok资源采集站，提供影视资源API接口",
       "status": "down",
@@ -57,7 +31,7 @@
     {
       "name": "u酷资源站",
       "link": "https://api.ukuzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/ukuziyuanzhan",
+      "source_url": "https://api.ukuzy.com",
       "api": "https://api.ukuzy.com/api.php/provide/vod",
       "description": "u酷资源站采集站，提供影视资源API接口",
       "status": "down",
@@ -83,7 +57,7 @@
     {
       "name": "优质资源站",
       "link": "https://api.yzzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/youzhiziyuanzhan",
+      "source_url": "https://api.yzzy.com",
       "api": "https://api.yzzy.com/api.php/provide/vod",
       "description": "优质资源库采集站，提供影视资源API接口",
       "status": "down",
@@ -109,7 +83,7 @@
     {
       "name": "快车资源站",
       "link": "https://api.kczy.com",
-      "source_url": "https://www.ziyuanzu.com/source/kuaicheziyuanzhan",
+      "source_url": "https://api.kczy.com",
       "api": "https://api.kczy.com/api.php/provide/vod",
       "description": "快车资源采集站，提供影视资源API接口",
       "status": "down",
@@ -135,7 +109,7 @@
     {
       "name": "新浪资源站",
       "link": "https://api.xlzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/xinlangziyuanzhan",
+      "source_url": "https://api.xlzy.com",
       "api": "https://api.xlzy.com/api.php/provide/vod",
       "description": "新浪资源采集站，提供影视资源API接口",
       "status": "down",
@@ -161,7 +135,7 @@
     {
       "name": "淘片资源站",
       "link": "https://api.tpzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/taopianziyuanzhan",
+      "source_url": "https://api.tpzy.com",
       "api": "https://api.tpzy.com/api.php/provide/vod",
       "description": "淘片资源采集站，提供影视资源API接口",
       "status": "down",
@@ -187,7 +161,7 @@
     {
       "name": "电影天堂资源站",
       "link": "https://api.dyttzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/dianyingtiantangziyuanzhan",
+      "source_url": "https://api.dyttzy.com",
       "api": "https://api.dyttzy.com/api.php/provide/vod",
       "description": "电影天堂资源站采集站，提供影视资源API接口",
       "status": "down",
@@ -213,7 +187,7 @@
     {
       "name": "量子资源站",
       "link": "https://api.lzizy.com",
-      "source_url": "https://www.ziyuanzu.com/source/liangziziyuanzhan",
+      "source_url": "https://api.lzizy.com",
       "api": "https://api.lzizy.com/api.php/provide/vod",
       "description": "量子资源采集站，提供影视资源API接口",
       "status": "down",
@@ -239,7 +213,7 @@
     {
       "name": "闪电资源",
       "link": "https://api.sdzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/shandianziyuan",
+      "source_url": "https://api.sdzy.com",
       "api": "https://api.sdzy.com/api.php/provide/vod",
       "description": "闪电资源采集站，提供影视资源API接口",
       "status": "down",
@@ -265,7 +239,7 @@
     {
       "name": "雅集资源站",
       "link": "https://api.yjzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/yajiziyuanzhan",
+      "source_url": "https://api.yjzy.com",
       "api": "https://api.yjzy.com/api.php/provide/vod",
       "description": "雅集资源采集站，提供影视资源API接口",
       "status": "down",
@@ -291,7 +265,7 @@
     {
       "name": "ck资源站",
       "link": "https://api.ckzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/ckziyuanzhan",
+      "source_url": "https://api.ckzy.com",
       "api": "https://api.ckzy.com/api.php/provide/vod",
       "description": "ck资源采集站，提供影视资源API接口",
       "status": "down",
