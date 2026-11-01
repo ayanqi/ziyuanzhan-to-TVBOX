@@ -2,7 +2,7 @@ name: Monitor & Deploy
 
 on:
   schedule:
-    # 每6小时运行一次（UTC时间）
+    # Run every 6 hours (UTC)
     - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
@@ -10,8 +10,10 @@ on:
       - main
     paths:
       - 'monitor.py'
+      - 'convert.py'
       - 'requirements.txt'
       - 'docs/data/sources.json'
+      - '.github/workflows/monitor.yml'
 
 permissions:
   contents: write
@@ -19,12 +21,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "monitor-deploy"
+  group: monitor-deploy
   cancel-in-progress: false
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -36,24 +39,31 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml pypinyin
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run monitor script
-        run: |
-          python monitor.py
+        run: python monitor.py
+
+      - name: Convert online.json to TVBox
+        run: python convert.py
 
       - name: Clean old history files
         run: |
           cd docs/data
-          ls -t monitor_*.json 2>/dev/null | tail -n +6 | xargs rm -f 2>/dev/null || true
+          ls -t monitor_*.json 2>/dev/null | tail -n +6 | xargs -r rm -f
 
-      - name: Commit and push changes
+      - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
-          git diff --cached --quiet || git commit -m "📊 Update monitor data: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No generated data changes"
+          else
+            git commit -m "Update monitor data and TVBox config: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -65,3 +75,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ github.token }}
