@@ -2,8 +2,8 @@
 import json
 from pathlib import Path
 
-SOURCE = Path('data/online.json')
-OUTPUT = Path('tvbox.json')
+SOURCE = Path('docs/data/online.json')
+OUTPUT = Path('docs/data/tvbox.json')
 
 def infer_type(api: str) -> int:
     url = api.lower()
