@@ -74,15 +74,6 @@
     },
     {
       "key": "zyz_009",
-      "name": "魔都资源站",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "zyz_010",
       "name": "奶香香资源站",
       "type": 1,
       "api": "https://naixxzy.com/api.php/provide/vod/",
@@ -91,7 +82,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_011",
+      "key": "zyz_010",
       "name": "辣椒资源站",
       "type": 1,
       "api": "https://apilj.com/api.php/provide/vod/",
@@ -100,7 +91,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_012",
+      "key": "zyz_011",
       "name": "鸭鸭资源站",
       "type": 1,
       "api": "https://cj.yayazy.net/api.php/provide/vod/",
@@ -109,7 +100,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_013",
+      "key": "zyz_012",
       "name": "天涯影视资源站",
       "type": 1,
       "api": "https://tyyszyapi.com/api.php/provide/vod/",
@@ -118,7 +109,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_014",
+      "key": "zyz_013",
       "name": "极速资源站",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/",
@@ -127,7 +118,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_015",
+      "key": "zyz_014",
       "name": "爱奇艺资源站",
       "type": 1,
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -136,7 +127,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_016",
+      "key": "zyz_015",
       "name": "猫眼资源",
       "type": 1,
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -145,7 +136,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_017",
+      "key": "zyz_016",
       "name": "索尼采集站",
       "type": 1,
       "api": "https://suonizy.net/api.php/provide/vod/",
@@ -154,7 +145,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_018",
+      "key": "zyz_017",
       "name": "虎牙资源站",
       "type": 1,
       "api": "https://huyazy.net/api.php/provide/vod/",
@@ -163,7 +154,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_019",
+      "key": "zyz_018",
       "name": "速播资源站",
       "type": 1,
       "api": "https://subocj.com/api.php/provide/vod/",
@@ -172,7 +163,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_020",
+      "key": "zyz_019",
       "name": "金鹰资源站",
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/",
@@ -181,7 +172,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_021",
+      "key": "zyz_020",
       "name": "非凡资源站",
       "type": 1,
       "api": "https://ffzy5.tv/api.php/provide/vod/",
@@ -190,7 +181,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_022",
+      "key": "zyz_021",
       "name": "飘零影院资源站",
       "type": 1,
       "api": "https://p2100.net/api.php/provide/vod/",
@@ -199,7 +190,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_023",
+      "key": "zyz_022",
       "name": "JKUN资源站",
       "type": 1,
       "api": "https://jkunzyapi.com/api.php/provide/vod",
@@ -208,7 +199,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_024",
+      "key": "zyz_023",
       "name": "大X子资源站",
       "type": 1,
       "api": "https://apidanaizi.com/api.php/provide/vod/",
@@ -217,7 +208,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_025",
+      "key": "zyz_024",
       "name": "樱花资源站",
       "type": 1,
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
@@ -226,7 +217,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_026",
+      "key": "zyz_025",
       "name": "精品X资源站",
       "type": 1,
       "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -235,7 +226,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_027",
+      "key": "zyz_026",
       "name": "细胞网资源站",
       "type": 1,
       "api": "https://www.xxibaozyw.com/api.php/provide/vod",
@@ -244,7 +235,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_028",
+      "key": "zyz_027",
       "name": "鲨鱼资源站",
       "type": 1,
       "api": "https://shayuapi.com/api.php/provide/vod/",
@@ -253,7 +244,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_029",
+      "key": "zyz_028",
       "name": "黑料资源站",
       "type": 1,
       "api": "https://heiliaozyapi.com/api.php/provide/vod",
@@ -262,7 +253,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_030",
+      "key": "zyz_029",
       "name": "光速资源站",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
@@ -271,7 +262,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_031",
+      "key": "zyz_030",
       "name": "茅台资源站",
       "type": 1,
       "api": "https://mtzy5.com/api.php/provide/vod/",
@@ -280,7 +271,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_032",
+      "key": "zyz_031",
       "name": "豆瓣资源站",
       "type": 1,
       "api": "https://dbzy.tv/api.php/provide/vod/",
@@ -289,7 +280,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_033",
+      "key": "zyz_032",
       "name": "155资源站",
       "type": 1,
       "api": "https://155api.com/api.php/provide/vod",
@@ -298,10 +289,19 @@
       "filterable": 1
     },
     {
-      "key": "zyz_034",
+      "key": "zyz_033",
       "name": "森林资源站",
       "type": 1,
       "api": "https://slapibf.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zyz_034",
+      "name": "百花资源站",
+      "type": 1,
+      "api": "https://bhziyuan.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -488,6 +488,15 @@
     },
     {
       "key": "zyz_055",
+      "name": "如意资源站",
+      "type": 1,
+      "api": "https://api.ryzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zyz_056",
       "name": "搜av资源站",
       "type": 1,
       "api": "https://api.souavzyw.net/api.php/provide/vod",
@@ -496,7 +505,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_056",
+      "key": "zyz_057",
       "name": "白嫖资源站",
       "type": 1,
       "api": "https://www.kxgav.com/api/json.php",
@@ -505,7 +514,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_057",
+      "key": "zyz_058",
       "name": "美少女资源站",
       "type": 1,
       "api": "https://www.msnii.com/api/json.php",
@@ -514,7 +523,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_058",
+      "key": "zyz_059",
       "name": "豆豆资源站",
       "type": 1,
       "api": "https://api.douapi.cc/api.php/provide/vod",
@@ -523,7 +532,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_059",
+      "key": "zyz_060",
       "name": "黄av资源站",
       "type": 1,
       "api": "https://www.pgxdy.com/api/json.php",
@@ -532,7 +541,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_060",
+      "key": "zyz_061",
       "name": "X水机资源站",
       "type": 1,
       "api": "https://www.xrbsp.com/api/json.php",
@@ -541,7 +550,7 @@
       "filterable": 1
     },
     {
-      "key": "zyz_061",
+      "key": "zyz_062",
       "name": "香X儿资源站",
       "type": 1,
       "api": "https://www.gdlsp.com/api/json.php",
